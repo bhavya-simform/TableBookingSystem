@@ -30,15 +30,6 @@ Specify your project architecture here. Suppose you are following Repository pat
 - TableBookingSystem.Web
 - TableBookingSystem.Tests (Contains all the test methods)
 
-### Deployement Steps
-
-1. Create virtual directory under IIS
-2. Enable Inbound and Outbound port for SQL Server(1433) in Firewall(If required)
-3. Create security group in your production and stage server if you are using EC2
-4. Update the Database Connection string with Production in appsettings.json
-5. Publish your project
-6. Move your publish files to the stage/production server
-
 ## Versioning
 
 Specify the version history
